@@ -1,0 +1,91 @@
+.Navbar>p {
+    color: white;
+    margin: 0px;
+    padding: 20px;
+    background-color: #333;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.links:hover {
+    text-decoration: none;
+    color: red;
+    padding: 15px;
+}
+
+.footer {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer>p {
+    color: white;
+    text-align: center;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.ShoeDetail {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ShoeDetail>.ShoeDetailLink {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 10px 20px;
+    margin-bottom: 150px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 10px #463636;
+}
+
+.ShoeDetail>.ShoeDetailLink>img {
+    border-radius: 5px;
+    margin: 5px;
+    width: 250px;
+    max-height: 250px;
+    box-shadow: 0 0 10px #463636;
+}
+
+.ShoeDetail>.ShoeDetailLink:hover {
+    border-radius: 5px;
+    padding-left: 25px;
+    margin: 0px 30px;
+    background-color: lightgrey;
+}
+
+.container {
+    margin: 10px auto;
+    padding: 0px;
+    height: 300px;
+    width: 300px;
+}
+
+.shoeBox {
+    margin: 0px auto;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.shoeBox>img {
+    width: 200px;
+    height: 200px;
+}
+
+.btn {
+    padding: 5px 20px;
+    background-color: #ef34;
+}
